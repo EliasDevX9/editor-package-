@@ -1,0 +1,31 @@
+{
+	"All": {
+		"icon": "list",
+		"color": "primary"
+	},
+	"Curated": {
+		"icon": "star",
+		"color": "warning"
+	},
+	"Utility": {
+		"icon": "build"
+	},
+	"Theme": {
+		"icon": "palette",
+		"color": "error"
+	},
+	"Snippets": {
+		"icon": "attachment",
+		"color": "info"
+	},
+	"Component": {
+		"icon": "package_2",
+		"color": "success"
+	},
+	"Presets": {
+		"icon": "description"
+	},
+	"Compiler": {
+		"icon": "manufacturing"
+	}
+}

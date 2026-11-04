@@ -1,0 +1,10 @@
+{
+	"importMap": "importMap.json",
+	"tasks": {
+		"build": "deno run -A ./scripts/build/build.ts",
+		"scrape": "deno run -A ./scripts/scraper/index.ts",
+		"dev": "deno run -A ./scripts/build/dev.ts",
+		"test": "deno run -A ./scripts/build/build.ts && deno test --unstable --allow-net --allow-read",
+		"test-silent": "deno run -A ./scripts/build/build.ts && deno test --unstable --allow-net --allow-read -- --silent"
+	}
+}

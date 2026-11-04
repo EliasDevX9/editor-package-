@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "mdi-alarm",
+    "id": "upcomingCreatorFeatures"
+  },
+  {
+    "icon": "mdi-camera",
+    "id": "experimentalCreatorCameraFeatures"
+  },
+  {
+    "icon": "mdi-shape",
+    "id": "experimentalVoxelShapeFeatures"
+  },
+  {
+    "icon": "mdi-ab-testing",
+    "id": "enableGameTestFramework" // Beta APIs toggle
+  },
+  {
+    "icon": "mdi-earth-box-plus",
+    "id": "renderDragonFeatures"
+  },
+  {
+    "icon": "mdi-school-outline",
+    "id": "educationEdition"
+  }
+]

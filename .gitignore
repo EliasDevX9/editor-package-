@@ -1,0 +1,14 @@
+.DS_Store
+
+!dist/
+dist/*
+!dist/minecraftBedrock
+dist/minecraftBedrock/*
+!dist/minecraftBedrock/fileDefinitions.json
+
+.env
+scripts/scraper/raw
+
+hash
+DataPackage.ts
+packages.zip

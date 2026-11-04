@@ -1,0 +1,16 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema",
+	"type": "object",
+	"properties": {
+		"condition": {
+			"title": "Damage Source Properties",
+			"description": "Checks properties of the damage source. Requires origin and damage source provided by loot context, and always fails if not provided.",
+			"const": "minecraft:damage_source_properties"
+		},
+		"predicate": {
+			"title": "Predicate",
+			"description": "Predicate applied to the damage source.",
+			"$ref": "../../general/damageSourceProperties.json"
+		}
+	}
+}
